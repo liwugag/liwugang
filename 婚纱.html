@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>邀请函</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+    <link rel="shortcut icon" type="text/css" href="img/logo.jpg"/>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script>
+        window.onload = function() {
+            var myAudio = document.getElementById('audio1');
+            var myMu1 = document.getElementsByClassName('music-on');
+            if(myAudio.paused) {
+                myAudio.play();
+                $(".music-on").addClass("zhuan");
+
+            } else {
+                myAudio.pause();
+                $(".music-on").removeClass("zhuan");
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="swiper-container">
+    <img src="img/music_on.png" class="music-on zhuan" onclick="music()">
+        <audio src="img/告白气球.mp3" controls loop id="audio1" style="opacity: 0;display: none;">
+        </audio>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/5.png"  class="ani s-1"  swiper-animate-effect="flip" swiper-animate-duration="0.3s" swiper-animate-delay="0.9s">
+            <img src="img/hua.png"  class="ani s-2"  swiper-animate-effect="fadeInDown" swiper-animate-duration="0.8s" swiper-animate-delay="0.6s">
+            <img src="img/ying.png"  class="ani s-3"  swiper-animate-effect="zoomIn" swiper-animate-duration="1.3s" swiper-animate-delay="0.9s">
+            <img src="img/jiehun.jpg"  class="ani s-4"  swiper-animate-effect="flip" swiper-animate-duration="0.7s" swiper-animate-delay="1s">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/11.jpg" class="ani a-1"  swiper-animate-effect="zoomIn" swiper-animate-duration="0.3s" swiper-animate-delay="0.3s">
+            <img src="img/20.jpg" class="ani a-2"  swiper-animate-effect="fadeInDown" swiper-animate-duration="0.6s" swiper-animate-delay="0.6s">
+            <img src="img/22.jpg" class="ani a-3"  swiper-animate-effect="rollIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/17.jpg" class="ani b-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="1.6s">
+            <img src="img/18.jpg" class="ani b-2"  swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.9s">
+            <img src="img/7.png" class="ani b-3"  swiper-animate-effect="fadeInDown" swiper-animate-duration="1.3s" swiper-animate-delay="1.4s">
+            <img src="img/8.gif" class="ani b-4"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.8s" swiper-animate-delay="2s">
+            <img src="img/14.gif" class="ani b-5"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="2.3s" swiper-animate-delay="2.5s">
+        </div>
+        <div class="swiper-slide">
+            <!--<img src="img/wo.png" class="ani c-1"  swiper-animate-effect="zoomInUp" swiper-animate-duration="2.6s" swiper-animate-delay="1.3s">-->
+            <img src="img/11.jpg" class="ani c-2"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">
+            <img src="img/xiang.png" class="ani c-3"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">
+            <!--<img src="img/2.jpg" class="ani c-4"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.8s">-->
+            <img src="img/9.jpg" class="ani c-5"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.3s">
+            <img src="img/4.jpg" class="ani c-6"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1.8s" swiper-animate-delay="1.3s">
+            <img src="img/6.jpg" class="ani c-7"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1.8s" swiper-animate-delay="1.3s">
+            <!--<img src="img/7.jpg" class="ani c-8"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="4s" swiper-animate-delay="3.3s">-->
+            <!--<img src="img/10.jpg" class="ani c-9"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="4.5s" swiper-animate-delay="2.8s">-->
+            <!--<img src="img/21.jpg" class="ani c-10"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="6s" swiper-animate-delay="3.8s">-->
+            <!--<img src="img/16.jpg" class="ani c-11"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="5s" swiper-animate-delay="4.3s">-->
+        </div>
+        <div class="swiper-slide">
+            <img src="img/5.png" class="ani c-8"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+            <img src="img/D.png" class="ani c-9"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">
+            <span class="ani ps1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">最美丽瞬间<br> THE MOST BEAUTIFUL<br>MOMENT</span>
+        </div>
+        <div class="swiper-slide">
+            <img src="img/19.jpg" class="ani c-8"  swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">
+            <img src="img/D.png" class="ani c-9"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">
+            <span class="ani ps1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">最美丽瞬间<br> THE MOST BEAUTIFUL<br>MOMENT</span>
+        </div>
+        <div class="swiper-slide">
+            <img src="img/121.png" class="ani c-8-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.8s" swiper-animate-delay="0.5s">
+            <img src="img/122.png" class="ani c-8-2"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">
+            <img src="img/D.png" class="ani c-9"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">
+            <span class="ani ps1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">最美丽瞬间<br> THE MOST BEAUTIFUL<br>MOMENT</span>
+        </div>
+        <div class="swiper-slide">
+            <span class="ani span1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">与你牵手一起跨上属于我们的前方，</span>
+            <span class="ani span2" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">最美的风景是有你在的每一个地方。</span>
+            <!--<img src="img/12.jpg" class="ani d-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">-->
+            <img src="img/4.jpg" class="ani c-10"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.3s" swiper-animate-delay="0.3s">
+            <img src="img/6.jpg" class="ani c-11"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="0.3s" swiper-animate-delay="0.3s">
+        </div>
+        <!--<div class="swiper-slide">-->
+            <!--&lt;!&ndash;<img src="img/15.jpg" class="ani e-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">&ndash;&gt;-->
+            <!--<img src="img/7.jpg" class="ani c-8"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1s" swiper-animate-delay="1.3s">-->
+            <!--<img src="img/10.jpg" class="ani c-9"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s">-->
+        <!--</div>-->
+        <div class="swiper-slide">
+            <!--<img src="img/15.jpg" class="ani e-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">-->
+            <img src="img/背景.jpg" class="ani e-1"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">
+            <!--<img src="img/1111.png" class="ani e-2"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.6s" swiper-animate-delay="0.3s">-->
+            <div id="div">
+                <img src="img/j1.png" class="ani p1" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                <img src="img/j4.png" class="ani sp1" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+                <img src="img/j3.png" class="ani sp2" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="2s">
+                <img src="img/j5.png" class="ani sp3" swiper-animate-effect="flipInX" swiper-animate-duration="2.5s" swiper-animate-delay="2.5s">
+                <!--<p class="ani p1" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1s"> 在最美好的时间遇到最爱的人<br>&nbsp&nbsp沉浸在幸福中的我们诚邀<br>&nbsp&nbsp&nbsp&nbsp您来参加我们的婚礼</p>-->
+                <!--<span class="ani sp1" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">杨彬❤武倩</span>-->
+                <!--<span class="ani sp2" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="2s">2017年10月7日  星期六  农历9月18日</span>-->
+                <!--<span class="ani sp3" swiper-animate-effect="flipInX" swiper-animate-duration="2.5s" swiper-animate-delay="2.5s">地点：廊坊市广阳道与和平路交口，胡杨记忆。</span>-->
+            </div>
+            <!--<p class="ani p1" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1s"> 在最美好的时间遇到最爱的人<br>&nbsp&nbsp沉浸在幸福中的我们诚邀<br>&nbsp&nbsp&nbsp&nbsp您来参加我们的婚礼</p>-->
+            <!--<span class="ani sp1" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">杨彬❤武倩</span>-->
+            <!--<span class="ani sp2" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="2s">2017年10月7日&nbsp星期六&nbsp农历9月18日</span>-->
+            <!--<span class="ani sp3" swiper-animate-effect="flipInX" swiper-animate-duration="2.5s" swiper-animate-delay="2.5s">地点：廊坊市广阳道与和平路交口，胡杨记忆。</span>-->
+        </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</body>
+<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper ('.swiper-container',{
+        direction:'vertical',
+        loop:true,
+        pagination:'.swiper-pagination',
+        onInit:function(swiper){
+            swiperAnimateCache(swiper);
+            swiperAnimate(swiper);
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper);
+        }
+    });
+    function music() {
+        var myAudio = document.getElementById('audio1');
+        var myMu1 = document.getElementsByClassName('music-on');
+        if(myAudio.paused) {
+            myAudio.play();
+            $(".music-on").addClass("zhuan");
+            $(".music-on").attr("src","img/music_on.png")
+        } else {
+            myAudio.pause();
+            $(".music-on").removeClass("zhuan");
+            $(".music-on").attr("src","img/music_off.png")
+        }
+    }
+
+
+</script>
+</html>
